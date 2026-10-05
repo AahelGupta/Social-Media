@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![Capsule Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1D9BF0&height=180&section=header&text=Chirp%20Social%20Media&fontSize=42&animation=twinkling&desc=Full-Featured%20React.js%20%26%20Tailwind%20CSS%20Twitter-Inspired%20Platform)
+  ![Capsule Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1D9BF0&height=180&section=header&text=Chirp%20Social%20Media&fontSize=42&fontColor=ffffff&animation=twinkling&desc=Full-Featured%20React.js%20and%20Tailwind%20CSS%20Platform)
 
   <br/>
 
