@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f4f7fb; --card: #ffffff; --ink: #0f1b2d; --muted: #61708a;
+  --line: #dbe3ee; --accent: #2f45e8; --accent-ink: #ffffff; --heart: #e5365b;
+}
+.dark {
+  --paper: #0b1220; --card: #121b2e; --ink: #e8eefb; --muted: #8b9bb8;
+  --line: #22304a; --accent: #7c8cff; --accent-ink: #0b1220; --heart: #ff6b88;
+}
+@theme inline {
+  --color-paper: var(--paper); --color-card: var(--card); --color-ink: var(--ink);
+  --color-muted: var(--muted); --color-line: var(--line); --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink); --color-heart: var(--heart);
+  --font-sans: "Bricolage Grotesque", system-ui, sans-serif;
+}
+body { background: var(--paper); color: var(--ink); font-family: var(--font-sans); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
